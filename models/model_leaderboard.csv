@@ -1,0 +1,17 @@
+module,model_name,split_version,precision,recall,f1,roc_auc,pr_auc,inference_latency_ms,threshold,model_version,evaluation_date
+credit_risk,Logistic Regression,train_test_split_80_20_stratified,0.7668,0.5619,0.6485,0.8693,0.729,0.0,0.5,v1.0.0,2026-10-24 15:35:02
+credit_risk,Random Forest,train_test_split_80_20_stratified,0.8452,0.7447,0.7918,0.9298,0.8784,0.01,0.5,v1.0.0,2026-10-24 15:35:03
+credit_risk,XGBoost,train_test_split_80_20_stratified,0.9694,0.7138,0.8222,0.9443,0.8968,0.0,0.5,v1.0.0,2026-10-24 15:35:04
+credit_risk,ANN (Deep MLP),train_test_split_80_20_stratified,0.9337,0.6737,0.7827,0.9189,0.8576,0.0,0.5,v1.0.0,2026-10-24 15:35:07
+fraud,Logistic Regression,train_test_split_80_20_stratified,0.0586,0.9184,0.1101,0.9714,0.7182,0.0,0.5,v1.0.0,2026-10-24 15:35:11
+fraud,Random Forest,train_test_split_80_20_stratified,0.6512,0.8571,0.7401,0.975,0.7968,0.0,0.5,v1.0.0,2026-10-24 15:35:18
+fraud,XGBoost,train_test_split_80_20_stratified,0.8265,0.8265,0.8265,0.9754,0.865,0.0,0.5,v1.0.0,2026-10-24 15:35:20
+fraud,ANN (Deep MLP),train_test_split_80_20_stratified,0.8298,0.7959,0.8125,0.9793,0.841,0.0,0.5,v1.0.0,2026-10-24 15:35:32
+churn,Logistic Regression,train_test_split_80_20_stratified,0.5891,0.1867,0.2836,0.7748,0.4789,0.0,0.5,v1.0.0,2026-10-24 15:35:32
+churn,KNN,train_test_split_80_20_stratified,0.6941,0.3735,0.4856,0.7955,0.5483,0.09,0.5,v1.0.0,2026-10-24 15:35:32
+churn,Random Forest,train_test_split_80_20_stratified,0.5427,0.7027,0.6124,0.8574,0.68,0.01,0.5,v1.0.0,2026-10-24 15:35:33
+churn,XGBoost,train_test_split_80_20_stratified,0.805,0.4767,0.5988,0.8671,0.715,0.0,0.5,v1.0.0,2026-10-24 15:35:33
+churn,ANN (Deep MLP),train_test_split_80_20_stratified,0.7816,0.5012,0.6108,0.8638,0.7082,0.0,0.5,v1.0.0,2026-10-24 15:35:35
+complaint,TF-IDF + Logistic Regression,train_test_split_80_20_stratified,0.9999,0.9966,0.9983,0.0,0.0,0.0,0.5,v1.0.0,2026-10-24 15:35:38
+complaint,TF-IDF + Linear SVM,train_test_split_80_20_stratified,1.0,0.9982,0.9991,0.0,0.0,0.0,0.5,v1.0.0,2026-10-24 15:35:54
+complaint,Deep Text MLP (ANN),train_test_split_80_20_stratified,0.9999,0.9948,0.9974,0.0,0.0,0.0,0.5,v1.0.0,2026-10-24 15:36:00

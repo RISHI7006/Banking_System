@@ -1,0 +1,39 @@
+{
+  "platform": "Banking & Financial Intelligence Platform",
+  "timestamp": "2026-10-24T15:36:01.037582",
+  "modules": {
+    "credit_risk": {
+      "model_artifact": "credit_risk_model.joblib",
+      "preprocessor_artifact": "credit_risk_preprocessor.joblib",
+      "target": "loan_status",
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "fraud": {
+      "model_artifact": "fraud_model.joblib",
+      "preprocessor_artifact": "fraud_scaler.joblib",
+      "target": "Class",
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "churn": {
+      "model_artifact": "churn_model.joblib",
+      "preprocessor_artifact": "churn_preprocessor.joblib",
+      "target": "Exited",
+      "classes": [
+        0,
+        1
+      ]
+    },
+    "complaint": {
+      "model_artifact": "complaint_model.joblib",
+      "sentiment_artifact": "complaint_sentiment_model.joblib",
+      "preprocessor_artifact": "complaint_vectorizer.joblib",
+      "target": "Product & Sentiment"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1. Run Backend (FastAPI)",
+      "type": "shell",
+      "command": "python run_backend.py",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "group": "servers"
+      }
+    },
+    {
+      "label": "2. Run Frontend (React Vite)",
+      "type": "shell",
+      "command": "cd frontend; npm run dev",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "group": "servers"
+      }
+    },
+    {
+      "label": "Start Modern Banking (All Servers)",
+      "dependsOn": [
+        "1. Run Backend (FastAPI)",
+        "2. Run Frontend (React Vite)"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
